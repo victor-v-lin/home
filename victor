@@ -1,29 +1,97 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>My GitHub Profile</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      background-color: #f4f4f4;
-      margin: 0;
-      padding: 20px;
-      text-align: center;
-    }
-    header {
-      background-color: #333;
-      color: #fff;
-      padding: 15px;
-    }
-  </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Victor Lin - Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <header>
-    <h1>Welcome to My GitHub Profile</h1>
+  <header class="header">
+    <div class="container">
+      <h1>Victor Lin</h1>
+      <p>Web Developer</p>
+    </div>
   </header>
-  <main>
-    <p>Hi, I'm [Your Name]. This is my GitHub Pages website!</p>
-    <p>Check out my projects and contributions on GitHub.</p>
-  </main>
+
+  <section class="about">
+    <div class="container">
+      <h2>About Me</h2>
+      <p>Welcome to my portfolio! I am a web developer passionate about creating amazing websites.</p>
+    </div>
+  </section>
+
+  <section class="projects">
+    <div class="container">
+      <h2>Projects</h2>
+      <div class="project">
+        <h3>Project 1</h3>
+        <p>Description of Project 1.</p>
+      </div>
+      <div class="project">
+        <h3>Project 2</h3>
+        <p>Description of Project 2.</p>
+      </div>
+      <!-- Add more project sections as needed -->
+    </div>
+  </section>
 </body>
 </html>
+/* Reset some default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #000;
+  color: #fff;
+}
+
+/* Header styles */
+.header {
+  background-color: #000;
+  color: #00f;
+  text-align: center;
+  padding: 40px 0;
+}
+
+.header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+.header p {
+  font-size: 1.2rem;
+}
+
+/* Section styles */
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.about, .projects {
+  padding: 50px 0;
+}
+
+.about h2, .projects h2 {
+  color: #00f;
+  margin-bottom: 20px;
+}
+
+/* Project styles */
+.project {
+  margin-bottom: 30px;
+  border: 2px solid #00f;
+  padding: 20px;
+}
+
+.project h3 {
+  color: #00f;
+  margin-bottom: 10px;
+}
