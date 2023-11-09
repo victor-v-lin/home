@@ -8,16 +8,20 @@
 /* Body styles */
 body {
   font-family: Arial, sans-serif;
-  background-color: #f4f4f4;
-  color: #333;
+  background-color: #333; /* Dark grey background */
+  color: #fff; /* White text color */
+}
+
+/* Container for resume content */
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 40px;
 }
 
 /* Header styles */
 .header {
-  background-color: #333;
-  color: #fff;
   text-align: center;
-  padding: 40px 0;
 }
 
 .header h1 {
@@ -27,48 +31,55 @@ body {
 
 .header p {
   font-size: 1.2rem;
-}
-
-/* Section styles */
-.container {
-  max-width: 960px;
-  margin: 0 auto;
-  padding: 0 20px;
-}
-
-.about, .projects, .resume {
-  padding: 50px 0;
-}
-
-.about h2, .projects h2, .resume h2 {
-  color: #333;
   margin-bottom: 20px;
 }
 
-/* Project styles */
+/* Section headings */
+h2 {
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+}
+
+/* About section */
+.about p {
+  margin-bottom: 15px;
+  line-height: 1.5;
+}
+
+/* Experience and Education section */
 .project {
-  margin-bottom: 30px;
-  border: 2px solid #333;
+  border: 1px solid #666; /* Dark grey border for the project boxes */
   padding: 20px;
+  margin-bottom: 30px;
 }
 
 .project h3 {
-  color: #333;
+  font-size: 1.4rem;
   margin-bottom: 10px;
 }
 
-/* Resume link style */
+.project h4 {
+  font-size: 1.1rem;
+  margin-bottom: 10px;
+}
+
+.project p {
+  margin-bottom: 10px;
+}
+
+/* Links and buttons */
 .resume-link {
   display: block;
   text-align: center;
   font-size: 1.2rem;
-  background-color: #333;
+  background-color: #444; /* Slightly lighter grey for links */
   color: #fff;
   padding: 10px;
   text-decoration: none;
   border-radius: 5px;
   margin-top: 20px;
 }
+
 .resume-link:hover {
-  background-color: #555;
+  background-color: #555; /* Darker on hover */
 }
