@@ -1,70 +1,67 @@
 body {
-  background-color: #121212; /* Dark black background */
-  color: #ffffff; /* White text color */
-  font-family: 'Arial', sans-serif;
+  background-color: #111;
+  color: #eee;
+  font-family: 'Helvetica Neue', sans-serif;
   margin: 0;
   padding: 0;
 }
 
 .container {
-  max-width: 1200px;
+  max-width: 800px;
   margin: 0 auto;
+}
+
+.header {
+  background-color: #333;
   padding: 20px;
-}
-
-header {
   text-align: center;
-  padding: 50px 0;
 }
 
-h1, h2, h3 {
-  color: #ffffff; /* White heading text color */
+.header h1 {
+  margin: 0;
 }
 
-nav {
-  text-align: center;
-  margin-top: 20px;
-}
-
-nav a {
-  color: #9e9e9e; /* Grey link color */
-  text-decoration: none;
-  margin: 0 15px;
-  font-size: 18px;
-}
-
-nav a:hover {
-  color: #ffffff; /* White link color on hover */
-}
-
-section {
+.about,
+.education,
+.experience,
+.links,
+.portfolio,
+.linktree {
   padding: 40px 0;
 }
 
+h2 {
+  color: #ddd;
+}
+
+h3 {
+  margin: 0;
+}
+
+h4 {
+  margin-top: 5px;
+  color: #999;
+}
+
 .project {
-  margin-bottom: 40px;
+  margin-bottom: 20px;
 }
 
-.project img {
-  max-width: 100%;
-  height: auto;
+.resume-link {
+  color: #3498db;
+  text-decoration: none;
+  font-weight: bold;
 }
 
-footer {
-  background-color: #121212; /* Dark black footer background */
-  color: #9e9e9e; /* Grey footer text color */
-  text-align: center;
-  padding: 20px 0;
-  position: fixed;
-  bottom: 0;
-  width: 100%;
+.resume-link:hover {
+  color: #2980b9;
 }
 
-/* Add more styles as needed */
+a {
+  color: #3498db;
+  text-decoration: none;
+}
 
-@media screen and (max-width: 600px) {
-  nav a {
-    display: block;
-    margin: 10px 0;
-  }
+a:hover {
+  color: #2980b9;
 }
