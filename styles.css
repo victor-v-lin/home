@@ -65,3 +65,15 @@ a {
 a:hover {
   color: #2980b9;
 }
+
+/* Additional styling for sections */
+.about,
+.education,
+.experience,
+.links,
+.portfolio,
+.linktree {
+  border-bottom: 1px solid #444;
+  margin-bottom: 40px;
+  padding-bottom: 20px;
+}
