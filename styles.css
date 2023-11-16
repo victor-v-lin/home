@@ -11,23 +11,22 @@ body {
   margin: 0 auto;
 }
 
+/* Header styling */
 .header {
   background-color: #333;
   padding: 20px;
   text-align: center;
 }
-
 .header h1 {
   margin: 0;
 }
 
-.about,
-.education,
-.experience,
-.links,
-.portfolio,
-.linktree {
+/* Section styling */
+section {
   padding: 40px 0;
+  border-bottom: 1px solid #444;
+  margin-bottom: 40px;
+  padding-bottom: 20px;
 }
 
 h2 {
@@ -47,33 +46,15 @@ h4 {
   margin-bottom: 20px;
 }
 
-.resume-link {
+/* Link styling */
+.resume-link,
+a {
   color: #3498db;
   text-decoration: none;
   font-weight: bold;
 }
 
-.resume-link:hover {
-  color: #2980b9;
-}
-
-a {
-  color: #3498db;
-  text-decoration: none;
-}
-
+.resume-link:hover,
 a:hover {
   color: #2980b9;
-}
-
-/* Additional styling for sections */
-.about,
-.education,
-.experience,
-.links,
-.portfolio,
-.linktree {
-  border-bottom: 1px solid #444;
-  margin-bottom: 40px;
-  padding-bottom: 20px;
 }
